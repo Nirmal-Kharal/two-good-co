@@ -51,3 +51,107 @@ html , body{
     opacity: 0;
     scale: 0;
 }
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 3vw 1vw;
+
+}
+#page2 .elem{
+    height: 100%;
+    width: 32.6%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2 .elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+    
+
+}
+#page2 .elem .dets {
+    height: 60px;
+    border-radius: 50px;
+    width: 70%;
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(229, 156, 186);}
+
+    #page2 .elem .dets:hover{
+        height: 200px;
+    }
+
+@media (max-width:600px) {
+    #page1{
+min-height:70vh ;
+        width: 100%;
+        padding: 0 2vw;
+        padding-top: 25vh;
+    }
+    #page1 h1{
+        font-size: 15vw;
+        font-family: futura;
+        line-height: 15vw;
+        letter-spacing: -3px;
+    }
+    #video-container{
+        height: 40vh;
+        margin-top: 3vw;
+        position:relative
+    }
+    #video-container #play{
+   
+
+        padding: 8vw 6vw;
+     
+        font-size: 4.5vw;
+        top: 35%;
+        left: 35%;
+        position: absolute;
+        text-transform: uppercase;
+        font-family: futura;
+        border-radius: 50%;
+        opacity: 1;
+        scale: 1;
+        transform: translate (-40%, -40%)
+    }
+
+    #page2 {
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 5vw 3vw;
+        flex-direction: column;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+
+    #page2 .elem {
+        height: 100vh;
+        width: 100%;
+        /* background-color: red; */
+        overflow: hidden;
+        margin-bottom: 3vw;
+    }
+
+    #page2 .elem .dets {
+        height: 40px;
+        border-radius: 50px;
+        width: 70%;
+        position: absolute;
+        z-index: 9;
+        background-color: rgb(229, 156, 186);
+
+
+}
